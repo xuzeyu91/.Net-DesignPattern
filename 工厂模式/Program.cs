@@ -61,21 +61,21 @@ namespace 工厂模式
     /// </summary>
     public class Rectangle : Shape
     {
-        void Shape.Draw()
+        public void Draw()
         {
             Console.WriteLine("Inside Rectangle::draw() method.");
         }
     }
     public class Square : Shape
     {
-        void Shape.Draw()
+        public void Draw()
         {
             Console.WriteLine("Inside Square::draw() method.");
         }
     }
     public class Circle : Shape
     {
-        void Shape.Draw()
+        public void Draw()
         {
             Console.WriteLine("Inside Circle::draw() method.");
         }
@@ -86,7 +86,6 @@ namespace 工厂模式
     /// </summary>
     public class ShapeFactory
     {
-
         //使用 getShape 方法获取形状类型的对象
         public Shape getShape(String shapeType)
         {

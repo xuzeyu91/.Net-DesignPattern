@@ -4,3 +4,9 @@ F:\学习\设计模式\单例模式\bin\Debug\单例模式.pdb
 F:\学习\设计模式\单例模式\obj\Debug\单例模式.csproj.CoreCompileInputs.cache
 F:\学习\设计模式\单例模式\obj\Debug\单例模式.exe
 F:\学习\设计模式\单例模式\obj\Debug\单例模式.pdb
+F:\学习\设计模式\.Net-DesignPattern\单例模式\bin\Debug\单例模式.exe.config
+F:\学习\设计模式\.Net-DesignPattern\单例模式\bin\Debug\单例模式.exe
+F:\学习\设计模式\.Net-DesignPattern\单例模式\bin\Debug\单例模式.pdb
+F:\学习\设计模式\.Net-DesignPattern\单例模式\obj\Debug\单例模式.csproj.CoreCompileInputs.cache
+F:\学习\设计模式\.Net-DesignPattern\单例模式\obj\Debug\单例模式.exe
+F:\学习\设计模式\.Net-DesignPattern\单例模式\obj\Debug\单例模式.pdb

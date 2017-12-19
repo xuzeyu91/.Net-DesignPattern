@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "工厂模式", "工厂模式\工厂模式.csproj", "{255BDF60-CC69-492B-A836-7EA3573445B0}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "原型模式", "原型模式\原型模式.csproj", "{DC31C96D-57EE-4DB6-8810-E71B1A51BACF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "适配器模式", "适配器模式\适配器模式.csproj", "{81834994-624A-47AD-96F1-9EDA1DDAD401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桥接模式", "桥接模式\桥接模式.csproj", "{961BF7BA-BBF5-4E21-8CD4-1D2341EA7BC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{81834994-624A-47AD-96F1-9EDA1DDAD401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81834994-624A-47AD-96F1-9EDA1DDAD401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81834994-624A-47AD-96F1-9EDA1DDAD401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961BF7BA-BBF5-4E21-8CD4-1D2341EA7BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961BF7BA-BBF5-4E21-8CD4-1D2341EA7BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961BF7BA-BBF5-4E21-8CD4-1D2341EA7BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961BF7BA-BBF5-4E21-8CD4-1D2341EA7BC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

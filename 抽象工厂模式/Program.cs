@@ -83,21 +83,21 @@ namespace 抽象工厂模式
     /// </summary>
     public class Rectangle : Shape
     {
-        void Shape.Draw()
+        public void Draw()
         {
             Console.WriteLine("Inside Rectangle::draw() method.");
         }
     }
     public class Square : Shape
     {
-        void Shape.Draw()
+        public void Draw()
         {
             Console.WriteLine("Inside Square::draw() method.");
         }
     }
     public class Circle : Shape
     {
-        void Shape.Draw()
+        public void Draw()
         {
             Console.WriteLine("Inside Circle::draw() method.");
         }
@@ -116,21 +116,21 @@ namespace 抽象工厂模式
     /// </summary>
     public class Red : Color
     {
-        void Color.Fill()
+        public void Fill()
         {
             Console.WriteLine("Inside Red::fill() method.");
         }
     }
     public class Green : Color
     {
-        void Color.Fill()
+        public void Fill()
         {
             Console.WriteLine("Inside Green::fill() method.");
         }
     }
     public class Blue : Color
     {
-        void Color.Fill()
+        public void Fill()
         {
             Console.WriteLine("Inside Blue::fill() method.");
         }

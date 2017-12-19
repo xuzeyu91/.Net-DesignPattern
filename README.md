@@ -1,4 +1,4 @@
-# .Net-DesignPattern（.Net 设计模式）
+﻿# .Net-DesignPattern（.Net 设计模式）
 
 以简单的例子来描述.Net中使用的各种设计模式的案例。源码基于Visual Studio 2017开发
 <br/>
@@ -10,3 +10,4 @@
 4.建造者模式<br/>
 5.原型模式<br/>
 6.适配器模式<br/>
+7.桥接模式<br/>

@@ -64,7 +64,7 @@ namespace 建造者模式
     /// </summary>
     public class Wrapper : Packing
     {
-        String Packing.Pack()
+        public String Pack()
         {
             return "Wrapper";
         }
@@ -72,7 +72,7 @@ namespace 建造者模式
 
     public class Bottle : Packing
     {
-        String Packing.Pack()
+        public String Pack()
         {
             return "Bottle";
         }
@@ -83,7 +83,7 @@ namespace 建造者模式
     /// </summary>
     public abstract class Burger : Item
     {
-        Packing Item.Packing()
+        public Packing Packing()
         {
             return new Wrapper();
         }
@@ -95,7 +95,7 @@ namespace 建造者模式
 
     public abstract class ColdDrink : Item
     {
-        Packing Item.Packing()
+        public Packing Packing()
         {
             return new Bottle();
         }
