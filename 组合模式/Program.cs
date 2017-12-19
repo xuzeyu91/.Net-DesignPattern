@@ -70,13 +70,13 @@ namespace 组合模式
     /// </summary>
     public class Employee
     {
-        private String name;
-        private String dept;
+        private string name;
+        private string dept;
         private int salary;
         private List<Employee> subordinates;
 
         //构造函数
-        public Employee(String name, String dept, int sal)
+        public Employee(string name, string dept, int sal)
         {
             this.name = name;
             this.dept = dept;
