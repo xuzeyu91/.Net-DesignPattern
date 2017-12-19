@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "组合模式", "组合模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰器模式", "装饰器模式\装饰器模式.csproj", "{685951A8-6339-45E1-B9BC-E6280B67C9E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "外观模式", "外观模式\外观模式.csproj", "{D090AFAF-6096-491E-983C-AC547FDF2235}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{685951A8-6339-45E1-B9BC-E6280B67C9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{685951A8-6339-45E1-B9BC-E6280B67C9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{685951A8-6339-45E1-B9BC-E6280B67C9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D090AFAF-6096-491E-983C-AC547FDF2235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D090AFAF-6096-491E-983C-AC547FDF2235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D090AFAF-6096-491E-983C-AC547FDF2235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D090AFAF-6096-491E-983C-AC547FDF2235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

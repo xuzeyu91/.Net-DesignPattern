@@ -47,7 +47,7 @@ namespace 装饰器模式
     }
 
     /// <summary>
-    /// 步骤 1 创建一个接口。
+    /// 步骤 1 创建抽象类。
     /// </summary>
     public abstract class Shape
     {
@@ -111,6 +111,4 @@ namespace 装饰器模式
             Console.WriteLine("Border Color: Red");
         }
     }
-
-
 }
