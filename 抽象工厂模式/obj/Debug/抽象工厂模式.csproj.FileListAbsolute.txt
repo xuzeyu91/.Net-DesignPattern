@@ -12,3 +12,8 @@ F:\学习\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工
 F:\学习\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.csproj.CoreCompileInputs.cache
 F:\学习\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.exe
 F:\学习\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.pdb
+F:\githubProject\设计模式\.Net-DesignPattern\抽象工厂模式\bin\Debug\抽象工厂模式.exe
+F:\githubProject\设计模式\.Net-DesignPattern\抽象工厂模式\bin\Debug\抽象工厂模式.pdb
+F:\githubProject\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.csproj.CoreCompileInputs.cache
+F:\githubProject\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.exe
+F:\githubProject\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.pdb

@@ -9,3 +9,14 @@ F:\学习\设计模式\.Net-DesignPattern\桥接模式\bin\Debug\netcoreapp2.0\�
 F:\学习\设计模式\.Net-DesignPattern\桥接模式\bin\Debug\netcoreapp2.0\桥接模式.pdb
 F:\学习\设计模式\.Net-DesignPattern\桥接模式\obj\Debug\netcoreapp2.0\桥接模式.dll
 F:\学习\设计模式\.Net-DesignPattern\桥接模式\obj\Debug\netcoreapp2.0\桥接模式.pdb
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\bin\Debug\netcoreapp2.0\桥接模式.deps.json
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\bin\Debug\netcoreapp2.0\桥接模式.runtimeconfig.json
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\bin\Debug\netcoreapp2.0\桥接模式.runtimeconfig.dev.json
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\bin\Debug\netcoreapp2.0\桥接模式.dll
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\bin\Debug\netcoreapp2.0\桥接模式.pdb
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\obj\Debug\netcoreapp2.0\桥接模式.csprojResolveAssemblyReference.cache
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\obj\Debug\netcoreapp2.0\桥接模式.csproj.CoreCompileInputs.cache
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\obj\Debug\netcoreapp2.0\桥接模式.AssemblyInfoInputs.cache
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\obj\Debug\netcoreapp2.0\桥接模式.AssemblyInfo.cs
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\obj\Debug\netcoreapp2.0\桥接模式.dll
+F:\githubProject\设计模式\.Net-DesignPattern\桥接模式\obj\Debug\netcoreapp2.0\桥接模式.pdb

@@ -141,8 +141,8 @@ namespace 抽象工厂模式
     /// </summary>
     public abstract class AbstractFactory
     {
-        public abstract Color getColor(String color);
-        public abstract Shape getShape(String shape);
+        public abstract Color getColor(string color);
+        public abstract Shape getShape(string shape);
     }
 
     /// <summary>
@@ -150,21 +150,21 @@ namespace 抽象工厂模式
     /// </summary>
     public class ShapeFactory : AbstractFactory
     {
-        public override Shape getShape(String shapeType)
+        public override Shape getShape(string shapeType)
         {
             if (shapeType == null)
             {
                 return null;
             }
-            if (shapeType.SequenceEqual("CIRCLE"))
+            if (shapeType.Equals("CIRCLE"))
             {
                 return new Circle();
             }
-            else if (shapeType.SequenceEqual("RECTANGLE"))
+            else if (shapeType.Equals("RECTANGLE"))
             {
                 return new Rectangle();
             }
-            else if (shapeType.SequenceEqual("SQUARE"))
+            else if (shapeType.Equals("SQUARE"))
             {
                 return new Square();
             }
@@ -172,7 +172,7 @@ namespace 抽象工厂模式
         }
 
 
-        public override Color getColor(String color)
+        public override Color getColor(string color)
         {
             return null;
         }
@@ -180,26 +180,26 @@ namespace 抽象工厂模式
 
     public class ColorFactory : AbstractFactory
     {
-        public override Shape getShape(String shapeType)
+        public override Shape getShape(string shapeType)
         {
             return null;
         }
    
-        public override Color getColor(String color)
+        public override Color getColor(string color)
         {
             if (color == null)
             {
                 return null;
             }
-            if (color.SequenceEqual("RED"))
+            if (color.Equals("RED"))
             {
                 return new Red();
             }
-            else if (color.SequenceEqual("GREEN"))
+            else if (color.Equals("GREEN"))
             {
                 return new Green();
             }
-            else if (color.SequenceEqual("BLUE"))
+            else if (color.Equals("BLUE"))
             {
                 return new Blue();
             }
@@ -212,13 +212,13 @@ namespace 抽象工厂模式
     /// </summary>
     public class FactoryProducer
     {
-        public static AbstractFactory getFactory(String choice)
+        public static AbstractFactory getFactory(string choice)
         {
-            if (choice.SequenceEqual("SHAPE"))
+            if (choice.Equals("SHAPE"))
             {
                 return new ShapeFactory();
             }
-            else if (choice.SequenceEqual("COLOR"))
+            else if (choice.Equals("COLOR"))
             {
                 return new ColorFactory();
             }

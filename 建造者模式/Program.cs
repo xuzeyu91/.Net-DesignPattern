@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 何时使用：一些基本部件不会变，而其组合经常变化的时候。
 如何解决：将变与不变分离开。
 关键代码：建造者：创建和提供实例，导演：管理建造出来的实例的依赖关系。
-应用实例： 1、去肯德基，汉堡、可乐、薯条、炸鸡翅等是不变的，而其组合是经常变化的，生成出所谓的"套餐"。 2、JAVA 中的 StringBuilder。
+应用实例： 1、去肯德基，汉堡、可乐、薯条、炸鸡翅等是不变的，而其组合是经常变化的，生成出所谓的"套餐"。 2、JAVA 中的 stringBuilder。
 优点： 1、建造者独立，易扩展。 2、便于控制细节风险。
 缺点： 1、产品必须有共同点，范围有限制。 2、如内部变化复杂，会有很多的建造类。
 使用场景： 1、需要生成的对象具有复杂的内部结构。 2、需要生成的对象内部属性本身相互依赖。
@@ -49,14 +49,14 @@ namespace 建造者模式
     /// </summary>
     public interface Item
     {
-        String Name();
+        string Name();
         Packing Packing();
         float Price();
     }
 
     public interface Packing
     {
-        String Pack();
+        string Pack();
     }
 
     /// <summary>
@@ -64,7 +64,7 @@ namespace 建造者模式
     /// </summary>
     public class Wrapper : Packing
     {
-        public String Pack()
+        public string Pack()
         {
             return "Wrapper";
         }
@@ -72,7 +72,7 @@ namespace 建造者模式
 
     public class Bottle : Packing
     {
-        public String Pack()
+        public string Pack()
         {
             return "Bottle";
         }
@@ -184,9 +184,9 @@ namespace 建造者模式
         {
             foreach (Item item in items)
             {
-                Console.WriteLine("Item : " + item.Name());
-                Console.WriteLine(", Packing : " + item.Packing().Pack());
-                Console.WriteLine(", Price : " + item.Price());
+                Console.Write("Item : " + item.Name());
+                Console.Write(", Packing : " + item.Packing().Pack());
+                Console.Write(", Price : " + item.Price());
             }
         }
     }

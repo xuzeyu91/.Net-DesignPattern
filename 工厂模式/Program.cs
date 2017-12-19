@@ -87,21 +87,21 @@ namespace 工厂模式
     public class ShapeFactory
     {
         //使用 getShape 方法获取形状类型的对象
-        public Shape getShape(String shapeType)
+        public Shape getShape(string shapeType)
         {
             if (shapeType == null)
             {
                 return null;
             }
-            if (shapeType.SequenceEqual("CIRCLE"))
+            if (shapeType.Equals("CIRCLE"))
             {
                 return new Circle();
             }
-            else if (shapeType.SequenceEqual("RECTANGLE"))
+            else if (shapeType.Equals("RECTANGLE"))
             {
                 return new Rectangle();
             }
-            else if (shapeType.SequenceEqual("SQUARE"))
+            else if (shapeType.Equals("SQUARE"))
             {
                 return new Square();
             }

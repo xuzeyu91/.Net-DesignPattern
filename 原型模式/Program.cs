@@ -28,13 +28,13 @@ namespace 原型模式
             ShapeCache.LoadCache();
 
             Shape clonedShape = (Shape)ShapeCache.GetShape("1");
-            Console.WriteLine("Shape : " + clonedShape.GetType());
+            Console.WriteLine("Shape : " + clonedShape.Type);
 
             Shape clonedShape2 = (Shape)ShapeCache.GetShape("2");
-            Console.WriteLine("Shape : " + clonedShape2.GetType());
+            Console.WriteLine("Shape : " + clonedShape2.Type);
 
             Shape clonedShape3 = (Shape)ShapeCache.GetShape("3");
-            Console.WriteLine("Shape : " + clonedShape3.GetType());
+            Console.WriteLine("Shape : " + clonedShape3.Type);
 
             Console.ReadKey();
         }
@@ -45,24 +45,13 @@ namespace 原型模式
     /// </summary>
     public abstract class Shape : ICloneable
     {
-        private String id;
-        protected String type;
+        private string id;
+        private string type;
+
+        public string Id { get => id; set => id = value; }
+        public string Type { get => type; set => type = value; }
+
         public abstract void Draw();
-
-        public String GetType()
-        {
-            return type;
-        }
-
-        public String GetId()
-        {
-            return id;
-        }
-
-        public void SetId(String id)
-        {
-            this.id = id;
-        }
 
         public object Clone()
         {
@@ -86,7 +75,7 @@ namespace 原型模式
     {
         public Rectangle()
         {
-            type = "Rectangle";
+            Type = "Rectangle";
         }
 
         public override void Draw()
@@ -99,7 +88,7 @@ namespace 原型模式
     {
         public Square()
         {
-            type = "Square";
+            Type = "Square";
         }
         public override void Draw()
         {
@@ -111,7 +100,7 @@ namespace 原型模式
     {
         public Circle()
         {
-            type = "Circle";
+            Type = "Circle";
         }
         public override void Draw()
         {
@@ -127,7 +116,7 @@ namespace 原型模式
 
         private static Hashtable shapeMap = new Hashtable();
 
-        public static Shape GetShape(String shapeId)
+        public static Shape GetShape(string shapeId)
         {
             Shape cachedShape = shapeMap[shapeId] as Shape;
             return (Shape)cachedShape.Clone();
@@ -139,16 +128,16 @@ namespace 原型模式
         public static void LoadCache()
         {
             Circle circle = new Circle();
-            circle.SetId("1");
-            shapeMap.Add(circle.GetId(), circle);
+            circle.Id="1";
+            shapeMap.Add(circle.Id, circle);
 
             Square square = new Square();
-            square.SetId("2");
-            shapeMap.Add(square.GetId(), square);
+            square.Id="2";
+            shapeMap.Add(square.Id, square);
 
             Rectangle rectangle = new Rectangle();
-            rectangle.SetId("3");
-            shapeMap.Add(rectangle.GetId(), rectangle);
+            rectangle.Id="3";
+            shapeMap.Add(rectangle.Id, rectangle);
         }
     }
 }

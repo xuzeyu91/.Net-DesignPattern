@@ -42,13 +42,13 @@ namespace 适配器模式
     /// </summary>
     public interface MediaPlayer
     {
-        void Play(String audioType, String fileName);
+        void Play(string audioType, string fileName);
     }
 
     public interface AdvancedMediaPlayer
     {
-        void PlayVlc(String fileName);
-        void PlayMp4(String fileName);
+        void PlayVlc(string fileName);
+        void PlayMp4(string fileName);
     }
 
     /// <summary>
@@ -56,12 +56,12 @@ namespace 适配器模式
     /// </summary>
     public class VlcPlayer : AdvancedMediaPlayer
     {
-        void AdvancedMediaPlayer.PlayVlc(String fileName)
+        void AdvancedMediaPlayer.PlayVlc(string fileName)
         {
             Console.WriteLine("Playing vlc file. Name: " + fileName);
         }
 
-        void AdvancedMediaPlayer.PlayMp4(String fileName)
+        void AdvancedMediaPlayer.PlayMp4(string fileName)
         {
             //什么也不做
         }
@@ -69,12 +69,12 @@ namespace 适配器模式
 
     public class Mp4Player : AdvancedMediaPlayer
     {
-        void AdvancedMediaPlayer.PlayVlc(String fileName)
+        void AdvancedMediaPlayer.PlayVlc(string fileName)
         {
             //什么也不做
         }
 
-        void AdvancedMediaPlayer.PlayMp4(String fileName)
+        void AdvancedMediaPlayer.PlayMp4(string fileName)
         {
             Console.WriteLine("Playing mp4 file. Name: " + fileName);
         }
@@ -86,24 +86,24 @@ namespace 适配器模式
     public class MediaAdapter : MediaPlayer
     {
         AdvancedMediaPlayer advancedMusicPlayer;
-        public MediaAdapter(String audioType)
+        public MediaAdapter(string audioType)
         {
-            if (audioType.SequenceEqual("vlc"))
+            if (audioType.Equals("vlc"))
             {
                 advancedMusicPlayer = new VlcPlayer();
             }
-            else if (audioType.SequenceEqual("mp4"))
+            else if (audioType.Equals("mp4"))
             {
                 advancedMusicPlayer = new Mp4Player();
             }
         }
-        public void Play(String audioType, String fileName)
+        public void Play(string audioType, string fileName)
         {
-            if (audioType.SequenceEqual("vlc"))
+            if (audioType.Equals("vlc"))
             {
                 advancedMusicPlayer.PlayVlc(fileName);
             }
-            else if (audioType.SequenceEqual("mp4"))
+            else if (audioType.Equals("mp4"))
             {
                 advancedMusicPlayer.PlayMp4(fileName);
             }
@@ -115,16 +115,16 @@ namespace 适配器模式
     public class AudioPlayer : MediaPlayer
     {
         MediaAdapter mediaAdapter;
-        public void Play(String audioType, String fileName)
+        public void Play(string audioType, string fileName)
         {
 
             //播放 mp3 音乐文件的内置支持
-            if (audioType.SequenceEqual("mp3"))
+            if (audioType.Equals("mp3"))
             {
                 Console.WriteLine("Playing mp3 file. Name: " + fileName);
             }
             //mediaAdapter 提供了播放其他文件格式的支持
-            else if (audioType.SequenceEqual("vlc") || audioType.SequenceEqual("mp4"))
+            else if (audioType.Equals("vlc") || audioType.Equals("mp4"))
             {
                 mediaAdapter = new MediaAdapter(audioType);
                 mediaAdapter.Play(audioType, fileName);
