@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "桥接模式", "桥接模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "过滤器模式", "过滤器模式\过滤器模式.csproj", "{A4ACC485-E437-41EB-A795-08437B8B5EF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "组合模式", "组合模式\组合模式.csproj", "{413D0023-57E9-4900-AB9D-9B519D4FCA8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{A4ACC485-E437-41EB-A795-08437B8B5EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4ACC485-E437-41EB-A795-08437B8B5EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4ACC485-E437-41EB-A795-08437B8B5EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413D0023-57E9-4900-AB9D-9B519D4FCA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413D0023-57E9-4900-AB9D-9B519D4FCA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413D0023-57E9-4900-AB9D-9B519D4FCA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413D0023-57E9-4900-AB9D-9B519D4FCA8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

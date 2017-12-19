@@ -3,3 +3,4 @@ F:\githubProject\设计模式\.Net-DesignPattern\过滤器模式\bin\Debug\过�
 F:\githubProject\设计模式\.Net-DesignPattern\过滤器模式\obj\Debug\过滤器模式.csproj.CoreCompileInputs.cache
 F:\githubProject\设计模式\.Net-DesignPattern\过滤器模式\obj\Debug\过滤器模式.exe
 F:\githubProject\设计模式\.Net-DesignPattern\过滤器模式\obj\Debug\过滤器模式.pdb
+F:\githubProject\设计模式\.Net-DesignPattern\过滤器模式\obj\Debug\过滤器模式.csprojResolveAssemblyReference.cache
