@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "工厂模式", "工厂模式\工厂模式.csproj", "{255BDF60-CC69-492B-A836-7EA3573445B0}"
 EndProject
@@ -30,6 +30,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "代理模式", "代理模式\代理模式.csproj", "{4B068E09-E925-4C48-98C8-8001BBEDACF5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "责任链模式", "责任链模式\责任链模式.csproj", "{D46655C3-D538-41E9-87ED-9F76EC1F2668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式", "命令模式\命令模式.csproj", "{9072943D-B037-4CD3-B2CC-B8D6C8148BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "解释器模式", "解释器模式\解释器模式.csproj", "{1C929873-8ABA-4928-8358-9B3352C3F15B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{D46655C3-D538-41E9-87ED-9F76EC1F2668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D46655C3-D538-41E9-87ED-9F76EC1F2668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D46655C3-D538-41E9-87ED-9F76EC1F2668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9072943D-B037-4CD3-B2CC-B8D6C8148BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9072943D-B037-4CD3-B2CC-B8D6C8148BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9072943D-B037-4CD3-B2CC-B8D6C8148BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9072943D-B037-4CD3-B2CC-B8D6C8148BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C929873-8ABA-4928-8358-9B3352C3F15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C929873-8ABA-4928-8358-9B3352C3F15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C929873-8ABA-4928-8358-9B3352C3F15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C929873-8ABA-4928-8358-9B3352C3F15B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

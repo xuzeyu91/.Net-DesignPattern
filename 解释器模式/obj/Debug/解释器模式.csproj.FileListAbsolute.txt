@@ -1,0 +1,6 @@
+F:\学习\设计模式\.Net-DesignPattern\解释器模式\bin\Debug\解释器模式.exe
+F:\学习\设计模式\.Net-DesignPattern\解释器模式\bin\Debug\解释器模式.pdb
+F:\学习\设计模式\.Net-DesignPattern\解释器模式\obj\Debug\解释器模式.csprojResolveAssemblyReference.cache
+F:\学习\设计模式\.Net-DesignPattern\解释器模式\obj\Debug\解释器模式.csproj.CoreCompileInputs.cache
+F:\学习\设计模式\.Net-DesignPattern\解释器模式\obj\Debug\解释器模式.exe
+F:\学习\设计模式\.Net-DesignPattern\解释器模式\obj\Debug\解释器模式.pdb
