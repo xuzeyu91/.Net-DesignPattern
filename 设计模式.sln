@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "迭代器模式", "迭代�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "中介者模式", "中介者模式\中介者模式.csproj", "{44A38B34-5EB8-497F-9F90-AE4D13370462}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "备忘录模式", "备忘录模式\备忘录模式.csproj", "{2BFA557E-A47D-4330-9911-6388C673DD4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{44A38B34-5EB8-497F-9F90-AE4D13370462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44A38B34-5EB8-497F-9F90-AE4D13370462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44A38B34-5EB8-497F-9F90-AE4D13370462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFA557E-A47D-4330-9911-6388C673DD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFA557E-A47D-4330-9911-6388C673DD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFA557E-A47D-4330-9911-6388C673DD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFA557E-A47D-4330-9911-6388C673DD4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
