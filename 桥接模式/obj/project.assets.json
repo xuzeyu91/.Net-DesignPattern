@@ -664,30 +664,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\XuZY\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\28651\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "F:\\学习\\设计模式\\.Net-DesignPattern\\桥接模式\\桥接模式.csproj",
+      "projectUniqueName": "C:\\xm\\git\\.Net-DesignPattern\\桥接模式\\桥接模式.csproj",
       "projectName": "桥接模式",
-      "projectPath": "F:\\学习\\设计模式\\.Net-DesignPattern\\桥接模式\\桥接模式.csproj",
-      "packagesPath": "C:\\Users\\XuZY\\.nuget\\packages\\",
-      "outputPath": "F:\\学习\\设计模式\\.Net-DesignPattern\\桥接模式\\obj\\",
+      "projectPath": "C:\\xm\\git\\.Net-DesignPattern\\桥接模式\\桥接模式.csproj",
+      "packagesPath": "C:\\Users\\28651\\.nuget\\packages\\",
+      "outputPath": "C:\\xm\\git\\.Net-DesignPattern\\桥接模式\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\XuZY\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\28651\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
