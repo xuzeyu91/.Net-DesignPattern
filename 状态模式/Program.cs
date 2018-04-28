@@ -19,7 +19,7 @@ namespace 状态模式
             context.setState(this);
         }
 
-        public override String ToString()
+        public override string ToString()
         {
             return "Start State";
         }
@@ -33,7 +33,7 @@ namespace 状态模式
             context.setState(this);
         }
 
-        public override String ToString()
+        public override string ToString()
         {
             return "Stop State";
         }
