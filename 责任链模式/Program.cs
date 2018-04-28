@@ -72,7 +72,7 @@ namespace 责任链模式
 
         public AbstractLogger NextLogger { get => nextLogger; set => nextLogger = value; }
 
-        public void LogMessage(int level, String message)
+        public void LogMessage(int level, string message)
         {
             if (this.level <= level)
             {
@@ -84,7 +84,7 @@ namespace 责任链模式
             }
         }
 
-        abstract protected void Write(String message);
+        abstract protected void Write(string message);
     }
 
     /// <summary>
@@ -97,7 +97,7 @@ namespace 责任链模式
             this.level = level;
         }
 
-        protected override void Write(String message)
+        protected override void Write(string message)
         {
             Console.WriteLine("Standard Console::Logger: " + message);
         }
@@ -110,7 +110,7 @@ namespace 责任链模式
             this.level = level;
         }
 
-        protected override void Write(String message)
+        protected override void Write(string message)
         {
             Console.WriteLine("Error Console::Logger: " + message);
         }
@@ -124,7 +124,7 @@ namespace 责任链模式
             this.level = level;
         }
 
-        protected override void Write(String message)
+        protected override void Write(string message)
         {
             Console.WriteLine("File::Logger: " + message);
         }

@@ -52,7 +52,7 @@ namespace 空对象模式
     {
         public static string[] names = { "Rob", "Joe", "Julie" };
 
-        public static AbstractCustomer getCustomer(String name)
+        public static AbstractCustomer getCustomer(string name)
         {
             for (int i = 0; i < names.Length; i++)
             {

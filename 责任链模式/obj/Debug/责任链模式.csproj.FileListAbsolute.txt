@@ -3,3 +3,8 @@ F:\githubProject\设计模式\.Net-DesignPattern\责任链模式\bin\Debug\责�
 F:\githubProject\设计模式\.Net-DesignPattern\责任链模式\obj\Debug\责任链模式.csproj.CoreCompileInputs.cache
 F:\githubProject\设计模式\.Net-DesignPattern\责任链模式\obj\Debug\责任链模式.exe
 F:\githubProject\设计模式\.Net-DesignPattern\责任链模式\obj\Debug\责任链模式.pdb
+C:\xm\git\.Net-DesignPattern\责任链模式\bin\Debug\责任链模式.exe
+C:\xm\git\.Net-DesignPattern\责任链模式\bin\Debug\责任链模式.pdb
+C:\xm\git\.Net-DesignPattern\责任链模式\obj\Debug\责任链模式.csproj.CoreCompileInputs.cache
+C:\xm\git\.Net-DesignPattern\责任链模式\obj\Debug\责任链模式.exe
+C:\xm\git\.Net-DesignPattern\责任链模式\obj\Debug\责任链模式.pdb

@@ -4,3 +4,9 @@ F:\学习\设计模式\.Net-DesignPattern\中介者模式\bin\Debug\中介者模
 F:\学习\设计模式\.Net-DesignPattern\中介者模式\obj\Debug\中介者模式.csproj.CoreCompileInputs.cache
 F:\学习\设计模式\.Net-DesignPattern\中介者模式\obj\Debug\中介者模式.exe
 F:\学习\设计模式\.Net-DesignPattern\中介者模式\obj\Debug\中介者模式.pdb
+C:\xm\git\.Net-DesignPattern\中介者模式\bin\Debug\中介者模式.exe.config
+C:\xm\git\.Net-DesignPattern\中介者模式\bin\Debug\中介者模式.exe
+C:\xm\git\.Net-DesignPattern\中介者模式\bin\Debug\中介者模式.pdb
+C:\xm\git\.Net-DesignPattern\中介者模式\obj\Debug\中介者模式.csproj.CoreCompileInputs.cache
+C:\xm\git\.Net-DesignPattern\中介者模式\obj\Debug\中介者模式.exe
+C:\xm\git\.Net-DesignPattern\中介者模式\obj\Debug\中介者模式.pdb

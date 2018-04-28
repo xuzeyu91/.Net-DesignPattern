@@ -16,3 +16,9 @@ F:\githubProject\设计模式\.Net-DesignPattern\建造者模式\obj\Debug\建�
 F:\githubProject\设计模式\.Net-DesignPattern\建造者模式\obj\Debug\建造者模式.exe
 F:\githubProject\设计模式\.Net-DesignPattern\建造者模式\obj\Debug\建造者模式.pdb
 F:\githubProject\设计模式\.Net-DesignPattern\建造者模式\obj\Debug\建造者模式.csprojResolveAssemblyReference.cache
+C:\xm\git\.Net-DesignPattern\建造者模式\bin\Debug\建造者模式.exe
+C:\xm\git\.Net-DesignPattern\建造者模式\bin\Debug\建造者模式.pdb
+C:\xm\git\.Net-DesignPattern\建造者模式\obj\Debug\建造者模式.csprojResolveAssemblyReference.cache
+C:\xm\git\.Net-DesignPattern\建造者模式\obj\Debug\建造者模式.csproj.CoreCompileInputs.cache
+C:\xm\git\.Net-DesignPattern\建造者模式\obj\Debug\建造者模式.exe
+C:\xm\git\.Net-DesignPattern\建造者模式\obj\Debug\建造者模式.pdb

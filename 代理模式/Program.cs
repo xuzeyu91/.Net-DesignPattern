@@ -53,9 +53,9 @@ namespace 代理模式
     /// </summary>
     public class RealImage : Image
     {
-        private String fileName;
+        private string fileName;
 
-        public RealImage(String fileName)
+        public RealImage(string fileName)
         {
             this.fileName = fileName;
             LoadFromDisk(fileName);
@@ -66,7 +66,7 @@ namespace 代理模式
             Console.WriteLine("Displaying " + fileName);
         }
 
-        private void LoadFromDisk(String fileName)
+        private void LoadFromDisk(string fileName)
         {
             Console.WriteLine("Loading " + fileName);
         }
@@ -75,8 +75,8 @@ namespace 代理模式
     public class ProxyImage : Image
     {
         private RealImage realImage;
-        private String fileName;
-        public ProxyImage(String fileName)
+        private string fileName;
+        public ProxyImage(string fileName)
         {
             this.fileName = fileName;
         }

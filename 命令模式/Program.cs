@@ -57,7 +57,7 @@ namespace 命令模式
     public class Stock
     {
 
-        private String name = "ABC";
+        private string name = "ABC";
         private int quantity = 10;
 
         public void Buy()

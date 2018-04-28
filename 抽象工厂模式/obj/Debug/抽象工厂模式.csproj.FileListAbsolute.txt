@@ -17,3 +17,9 @@ F:\githubProject\设计模式\.Net-DesignPattern\抽象工厂模式\bin\Debug\�
 F:\githubProject\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.csproj.CoreCompileInputs.cache
 F:\githubProject\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.exe
 F:\githubProject\设计模式\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.pdb
+C:\xm\git\.Net-DesignPattern\抽象工厂模式\bin\Debug\抽象工厂模式.exe
+C:\xm\git\.Net-DesignPattern\抽象工厂模式\bin\Debug\抽象工厂模式.pdb
+C:\xm\git\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.csprojResolveAssemblyReference.cache
+C:\xm\git\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.csproj.CoreCompileInputs.cache
+C:\xm\git\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.exe
+C:\xm\git\.Net-DesignPattern\抽象工厂模式\obj\Debug\抽象工厂模式.pdb

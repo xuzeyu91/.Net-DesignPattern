@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 何时使用： 1、系统中有大量对象。 2、这些对象消耗大量内存。 3、这些对象的状态大部分可以外部化。 4、这些对象可以按照内蕴状态分为很多组，当把外蕴对象从对象中剔除出来时，每一组对象都可以用一个对象来代替。 5、系统不依赖于这些对象身份，这些对象是不可分辨的。
 如何解决：用唯一标识码判断，如果在内存中有，则返回这个唯一标识码所标识的对象。
 关键代码：用 HashMap 存储这些对象。
-应用实例： 1、JAVA 中的 String，如果有则返回，如果没有则创建一个字符串保存在字符串缓存池里面。 2、数据库的数据池。
+应用实例： 1、JAVA 中的 string，如果有则返回，如果没有则创建一个字符串保存在字符串缓存池里面。 2、数据库的数据池。
 优点：大大减少对象的创建，降低系统的内存，使效率提高。
 缺点：提高了系统的复杂度，需要分离出外部状态和内部状态，而且外部状态具有固有化的性质，不应该随着内部状态的变化而变化，否则会造成系统的混乱。
 使用场景： 1、系统有大量相似对象。 2、需要缓冲池的场景。
@@ -40,7 +40,7 @@ namespace 享元模式
             Console.ReadKey();
         }
 
-        private static String GetRandomColor()
+        private static string GetRandomColor()
         {
             return colors[(int)(R.Next(colors.Length))];
         }
@@ -93,9 +93,9 @@ namespace 享元模式
     /// </summary>
     public class ShapeFactory
     {
-        private static Dictionary<String, Shape> circleDic = new Dictionary<String, Shape>();
+        private static Dictionary<string, Shape> circleDic = new Dictionary<string, Shape>();
 
-        public static Shape GetCircle(String color)
+        public static Shape GetCircle(string color)
         {
             Circle circle;
             if (!circleDic.ContainsKey(color))

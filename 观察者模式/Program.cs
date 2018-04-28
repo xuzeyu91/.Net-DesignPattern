@@ -93,7 +93,7 @@ namespace 观察者模式
         }
         public override void Update()
         {
-            Console.WriteLine("Binary String: " + Convert.ToString(subject.GetState(),2));
+            Console.WriteLine("Binary string: " + Convert.ToString(subject.GetState(),2));
         }
     }
 
@@ -106,7 +106,7 @@ namespace 观察者模式
         }
         public override void Update()
         {
-            Console.WriteLine("Octal String: " + Convert.ToString(subject.GetState(), 8));
+            Console.WriteLine("Octal string: " + Convert.ToString(subject.GetState(), 8));
         }
     }
 
@@ -119,7 +119,7 @@ namespace 观察者模式
         }
         public override void Update()
         {
-            Console.WriteLine("Hex String: " + Convert.ToString(subject.GetState(), 16).ToUpper());
+            Console.WriteLine("Hex string: " + Convert.ToString(subject.GetState(), 16).ToUpper());
         }
     }
 }

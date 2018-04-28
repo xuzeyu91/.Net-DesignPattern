@@ -43,7 +43,7 @@ namespace 中介者模式
     /// </summary>
     public class ChatRoom
     {
-        public static void ShowMessage(User user, String message)
+        public static void ShowMessage(User user, string message)
         {
            Console.WriteLine(DateTime.Now.ToString()+ " [" + user.Name + "] : " + message);
         }
@@ -58,7 +58,7 @@ namespace 中介者模式
 
         public string Name { get => name; set => name = value; }
 
-        public User(String name)
+        public User(string name)
         {
             this.Name = name;
         }

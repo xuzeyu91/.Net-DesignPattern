@@ -32,7 +32,7 @@ namespace 迭代器模式
 
             for (Iterator iter = namesRepository.GetIterator(); iter.HasNext();)
             {
-                string name = (String)iter.Next();
+                string name = (string)iter.Next();
                 Console.WriteLine("Name : " + name);
             }
             Console.ReadKey();
