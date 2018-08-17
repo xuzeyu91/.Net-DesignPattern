@@ -1,0 +1,7 @@
+C:\xm\git\.Net-DesignPattern\访问者模式\bin\Debug\访问者模式.exe.config
+C:\xm\git\.Net-DesignPattern\访问者模式\bin\Debug\访问者模式.exe
+C:\xm\git\.Net-DesignPattern\访问者模式\bin\Debug\访问者模式.pdb
+C:\xm\git\.Net-DesignPattern\访问者模式\obj\Debug\访问者模式.csprojResolveAssemblyReference.cache
+C:\xm\git\.Net-DesignPattern\访问者模式\obj\Debug\访问者模式.csproj.CoreCompileInputs.cache
+C:\xm\git\.Net-DesignPattern\访问者模式\obj\Debug\访问者模式.exe
+C:\xm\git\.Net-DesignPattern\访问者模式\obj\Debug\访问者模式.pdb
